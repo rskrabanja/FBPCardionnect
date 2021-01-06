@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap')  /* Use Google Font, https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file */;
+
+body { 
+	background: rgb(145, 183, 184, 0.45);
+	font-family: Bahnschrift Light;
+
+		}
+
+
+.basic{
+
+text-align: center;
+}
+
+
+#banner {  /* Cardionnect logo on Login page */
+	width: 75%;
+	margin: 20px 220px;
+	background-image: url(Images/LogoCardionnect.png);
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+
+}
+
+#banner2 {  /* Cardionnect logo on the rest of the pages */
+	width: 97%;
+	background-color: rgb(245,245,245, 0.6);
+	background-image: url(Images/LogoCardionnect.png);
+	height: 75px;
+	background-position: left;
+	background-size: 30%;
+	background-repeat: no-repeat;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h1 {
+	color: rgb(145, 167, 116);
+	width: 250px;
+	margin: 0 auto;
+	font-family: "Lato";
+	font-size: 70px;
+}
+
+ h2 {
+
+	color: rgb(165, 102, 88);
+	font-family: "Lato", sans-serif;
+	width: auto;
+	
+
+}
+h1, h2, {
+margin: center;
+ }
+
+h4{
+	color: rgb(165, 102, 88);
+	font-family: Bahnschrift Light;
+	width: auto;
+	font-size: 30px;
+	margin: 25px;
+	float: left;
+}
+
+h3 {
+	margin: 35px 10px;
+}
+
+p{
+	width: 600px;
+	margin: auto;
+}
+
+#name {
+	color: #e75480;
+}
+
+.block {   /* BLock for Login page, in previous version the block that was most backward. */
+	text-align: left;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	width: 90%;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 25px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.block2 { /* Block used for questions and answers */
+	text-align: left;
+	border-radius: 10px;
+	background-color: white;
+	color: #707070;
+	width: 40%;
+	margin: 25px 25px 25px 70px;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: left;
+}
+
+.block3 {  /* Block used for buddy proposals */
+	text-align: center;
+	border-radius: 10px;
+	background-color: white;
+	color: #707070;
+	width: 45%;
+	margin: 25px 30px;
+	height: 330px;
+	padding: 5px;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block4 {  /* Block used for sending message to buddy */
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 5px;
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block5 {  /* Block used for basic text */
+	text-align: center;
+	border-radius: 10px;
+	background-color: white;
+	color: #707070;
+	width: 45%;
+	margin: 25px auto;
+	height: auto;
+	padding: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img{   /* Buddy Images */
+	float: left;
+	padding: 0 20px 20px 0;
+	width: 350px;
+	margin: 60px 25px;
+	display: block;
+ 	 transition: transform .2s; /* Animation to enlarge photo, https://www.w3schools.com/howto/howto_css_zoom_hover.asp  */
+}
+
+.img:hover {
+	transform: scale(1.5); /* Enlarge photo when mouse goes over it, https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+}
+
+	.button {  /* All buttons */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;  /* https://stackoverflow.com/questions/12647745/float-center-doesnt-work */
+  margin: 2px 25px;
+  border-radius: 4px;
+  height: 100px;
+  width: 500px;
+  background-color: rgb(165, 102, 88);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.buttonwrapped { /* https://coder-coder.com/how-to-center-button-with-html-css/#:~:text=Sometimes%20you%20might%20want%20to,center%20them%20on%20the%20page.&text=Notice%20that%20we%20also%20added,to%20add%20space%20between%20them. */
+display: flex;
+justify-content: center;
+
+}
+
+.button2 {    /* Button used in previous version */
+  border: 1px solid black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 4px;
+  height: 100px;
+  width: 500px;
+  background-color: white;
+}
+
+	.button3 {  /* Button to save buddy */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;  /* https://stackoverflow.com/questions/12647745/float-center-doesnt-work */
+  margin:  20px auto;
+  border-radius: 4px;
+  height: 100px;
+  width: 500px;
+  background-color: rgb(165, 102, 88);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+textarea {  /* Text input in questions / send message, https://www.w3schools.com/css/css_form.asp */
+  width: 500px;
+  height: 75px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 20px auto;
+  color: #707070;
+  font-family: Bahnschrift Light;
+
+}
+
+
+
+#submission {  /* Submission login button */
+	font-family: Bahnschrift Light;
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	display: block;
+ 	margin: 0 auto;
+ 	border: none;
+ 	background-color: rgb(145, 183, 184, 0.45);
+
+
+}
+
+#submission2 {  /* Submission questionnaire button */
+	font-family: Bahnschrift Light;
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	display: block;
+ 	margin: 0 auto;
+ 	border: none;
+ 	background-color: rgb(165, 102, 88);
+
+
+}
+
+/* #myFile {    File-upload button style from previous version 
+	font-family: Bahnschrift Light;
+	width: 250px;
+	height: 50px;
+	margin: 5px 25px;
+}
+*/
+
+/* the .file were based on https://css-tricks.com/snippets/css/custom-file-input-styling-webkitblink/ */
+
+.file::-webkit-file-upload-button { /* Hiding standard button */
+  visibility: hidden;
+}
+.file::before {    /* Styling upload button */
+  content: 'Kies een bestand';
+  display: inline-block;
+  background-color: rgb(165, 102, 88);
+  color: black;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-family: Bahnschrift Light;
+  font-size: 12pt;
+  margin: auto;
+}
+.file:hover::before {
+  background-color: rgb(145, 167, 116) ;  /* Change color when mouse goes over, https://www.w3schools.com/css/css3_buttons.asp */
+}
+.file:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#submission:hover, #submission2:hover {  /* Change color when mouse goes over, https://www.w3schools.com/css/css3_buttons.asp */
+	background-color: rgb(145, 167, 116);
+}
+
+
+.button:hover, .button3:hover {   /* Change color when mouse goes over, https://www.w3schools.com/css/css3_buttons.asp */
+	background-color: rgb(145, 183, 184, 0.45);
+}
+
+.button2:hover {   /* Change color when mouse goes over, https://www.w3schools.com/css/css3_buttons.asp */
+	background-color: pink;
+}
+
+
+.slider{    /* Slider beam in personality questions, https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+-webkit-appearance: none;
+  width: 75%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+ 
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb { /* Slider in personality questions, https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 15px;
+  background: rgb(145, 167, 116);
+ cursor: -webkit-grabbing; cursor: grabbing;  /* Change cursor on slider */
+}
+
+/* input-container until input-field:focus come from https://www.w3schools.com/howto/howto_css_form_icon.asp */
+
+.input-container {
+	display: flex;
+	width: 100%
+	margin-bottom: 15px;
+}
+
+.icon {     /* Icon style */
+	padding: 15px 10px;
+	background: rgb(145, 183, 184, 0.45);
+	color: black;
+	text-align: center;
+	min-width: 30px;
+}
+
+.input-field {
+	width: 100%
+	padding: 10px;
+	outline: none;
+	font-family: Bahnschrift Light;
+}
+
+.input-field:focus {
+	border: 2px solid rgb(145, 183, 184, 0.45);
+}
+
+#submission3 {    /* Send message button */
+	font-family: Bahnschrift Light;
+	display: flex;
+	width: 150px;
+	border: none;
+	float: center;
+	height: 50px;
+
+}
+
+#submission3:hover {  /* Change color when mouse goes over, https://www.w3schools.com/css/css3_buttons.asp */
+	background-color: rgb(145, 183, 184, 0.45);
+}
